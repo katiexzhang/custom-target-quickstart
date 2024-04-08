@@ -24,7 +24,7 @@ customActions:
   deployAction: custom-deploy
   includeSkaffoldModules:
     - configs: ["myGcbV2RepoConfig"]
-      googleCloudStorage:
+      googleCloudBuildRepo:
         repository: projects/katiexzhang-testing/locations/us-central1/connections/git/repositories/custom-target-quickstart
         path: skaffold.yaml
         ref: bf5edef
