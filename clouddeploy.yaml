@@ -24,8 +24,8 @@ customActions:
   deployAction: custom-deploy
   includeSkaffoldModules:
     - configs:
-    googleCloudBuildRepo:
-      repository: projects/katiexzhang-testing/locations/us-central1/connections/git/repositories/custom-target-quickstart
-      path: skaffold.yaml
-      ref: 273b924
+      googleCloudBuildRepo:
+        repository: projects/katiexzhang-testing/locations/us-central1/connections/git/repositories/custom-target-quickstart
+        path: skaffold.yaml
+        ref: 273b924
 
