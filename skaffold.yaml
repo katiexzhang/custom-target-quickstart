@@ -9,7 +9,7 @@ customActions:
     args:
       - '-c'
       - |-
-        echo "Sample manifest rendered content" > manifest.txt
+        echo "FROM A GIT REPO- Sample manifest rendered content" > manifest.txt
         gsutil cp manifest.txt $CLOUD_DEPLOY_OUTPUT_GCS_PATH/manifest.txt
         echo {\"resultStatus\": \"SUCCEEDED\", \"manifestFile\": \"$CLOUD_DEPLOY_OUTPUT_GCS_PATH/manifest.txt\"} > results.json
         gsutil cp results.json $CLOUD_DEPLOY_OUTPUT_GCS_PATH/results.json
