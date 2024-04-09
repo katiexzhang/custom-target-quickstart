@@ -25,6 +25,6 @@ customActions:
   includeSkaffoldModules:
     - configs: ["myGcbV2RepoConfig"]
       googleCloudBuildRepo:
-        repository: projects/katiexzhang-testing/locations/us-central1/connections/git/repositories/custom-target-quickstart
+        repository: projects/katiexzhang-testing/locations/us-central1/connections/git/repositories/katiexzhang-custom-target-quickstart
         path: skaffold.yaml
         ref: bf5edef
