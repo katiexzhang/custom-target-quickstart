@@ -1,5 +1,7 @@
 apiVersion: skaffold/v4beta7
 kind: Config
+metadata:
+  name: myGcbV2RepoConfig
 customActions:
 - name: custom-render
   containers:
